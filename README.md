@@ -1,5 +1,5 @@
 # 🎨 Godot 2D Platformer (Custom)
-<p align=center><img src = "https://github.com/MinSungJe/Godot2DPlatformer_Custom/assets/101497652/129d62e4-8f70-42b6-9869-d4fe8120c884" width="50%" height="50%"></p>
+<p align=center><img src = "https://github.com/MinSungJe/Godot2DPlatformer_Custom/assets/101497652/4acef0ec-bdf4-4797-9d51-c34e21d8981f" width="50%" height="50%"></p>
 
 > 📗 **Custom** Practice for Godot with making 2D Platformer Game.  
 > 📚 Continues from the last commit of [Godot2DPlatformer Repository](https://github.com/MinSungJe/Godot2DPlatformer) 🔒
