@@ -14,17 +14,17 @@
 
 
 ## 📢 Recent Update
-**⚙ (2023-11-01) 🎓**
-> # 🎓 Course Complete
-> **Repository**
->- Custom Repository 추가
->- 완성된 2D Platformer Commit
+**⚙ (2023-11-02) 🎓**
+> **Level Complete**
+>- 특정 조건에서 Level Complete가 두 번 실행되는 오류 수정
 
 ## 🧾 Update History
 
 <details>
-<summary><b>⚙ (YYYY-MM-DD)</b></summary>
+<summary><b>⚙ (2023-11-01)</b></summary>
 
-> **Title**
->- Title에 대한 설명
+> # 🎓 Course Complete
+> **Repository**
+>- Custom Repository 추가
+>- 완성된 2D Platformer Commit
 </details>
