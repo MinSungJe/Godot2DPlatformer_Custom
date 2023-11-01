@@ -14,14 +14,14 @@
 
 
 ## 📢 Recent Update
-**⚙ (2023-11-02) 🎓**
+**⚙ (2023-11-02)**
 > **Level Complete**
 >- 특정 조건에서 Level Complete가 두 번 실행되는 오류 수정
 
 ## 🧾 Update History
 
 <details>
-<summary><b>⚙ (2023-11-01)</b></summary>
+<summary><b>⚙ (2023-11-01) 🎓</b></summary>
 
 > # 🎓 Course Complete
 > **Repository**
