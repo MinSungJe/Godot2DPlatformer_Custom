@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="2D Platformer Custom"
+config/name="Custom 2D Platformer"
 run/main_scene="res://scenes/UI/MainMenu.tscn"
 boot_splash/image="res://icon.png"
 boot_splash/fullsize=false
