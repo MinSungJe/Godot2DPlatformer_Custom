@@ -12,7 +12,7 @@ func _ready():
 	quitButton.connect("pressed", self, "on_quit_pressed")
 	optionsButton.connect("pressed", self, "on_options_pressed")
 	
-func _process(delta):
+func _process(_delta):
 	X_ = panelContainerPivot.rect_size.x / 2
 	Y_ = panelContainerPivot.rect_size.y / 2
 	panelContainerPivot.rect_pivot_offset = Vector2(X_,Y_)

@@ -35,7 +35,7 @@ void fragment() {
 [sub_resource type="ShaderMaterial" id=4]
 shader = SubResource( 3 )
 
-[node name="MouseCursor" type="CanvasLayer"]
+[node name="MouseCursor" type="CanvasLayer" groups=["mouse_cursor"]]
 pause_mode = 2
 layer = 100
 script = ExtResource( 2 )
@@ -44,7 +44,12 @@ script = ExtResource( 2 )
 root_node = NodePath("../Sprite")
 anims/click = SubResource( 2 )
 
+[node name="IdleTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
 [node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 1.5, 1.5 )
 texture = SubResource( 1 )
 centered = false
 

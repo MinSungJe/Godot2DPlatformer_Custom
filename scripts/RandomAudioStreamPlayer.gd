@@ -15,7 +15,7 @@ func play():
 	for streamPlayer in get_children():
 		if not streamPlayer.playing: validNodes.append(streamPlayer)
 
-	for i in range(numberToPlay):
+	for _i in range(numberToPlay):
 		if not validNodes: break
 		var idx = rng.randi_range(0, validNodes.size()-1)
 		

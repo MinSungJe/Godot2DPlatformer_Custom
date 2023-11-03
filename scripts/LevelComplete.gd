@@ -7,7 +7,7 @@ func _ready():
 	$MarginContainer/PanelContainer/MarginContainer/VBoxContainer/NextLevelButton.connect("pressed", self, "on_next_button_pressed")
 	$MarginContainer/PanelContainer/MarginContainer/VBoxContainer/RestartButton.connect("pressed", self, "on_restart_button_pressed")
 
-func _process(delta):
+func _process(_delta):
 	X_ = panelContainerPivot.rect_size.x / 2
 	Y_ = panelContainerPivot.rect_size.y / 2
 	panelContainerPivot.rect_pivot_offset = Vector2(X_,Y_)

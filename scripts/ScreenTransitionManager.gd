@@ -11,6 +11,8 @@ func transition_to_scene(scenePath):
 	add_child(screenTransition)
 	yield(screenTransition, "screen_covered")
 	get_tree().change_scene(scenePath)
+	if scenePath != "res://scenes/UI/MainMenu.tscn":
+		MouseCursor.toggle_mouse_visible()
 	
 func transition_to_menu():
 	transition_to_scene("res://scenes/UI/MainMenu.tscn")

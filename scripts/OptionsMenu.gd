@@ -21,7 +21,7 @@ func _ready():
 	update_display()
 	update_initial_volume_settings()
 
-func _process(delta):
+func _process(_delta):
 	X_ = panelContainerPivot.rect_size.x / 2
 	Y_ = panelContainerPivot.rect_size.y / 2
 	panelContainerPivot.rect_pivot_offset = Vector2(X_,Y_)

@@ -150,7 +150,7 @@ func spawn_footsteps(scale = 1):
 func disable_player_input():
 	change_state(State.INPUT_DISABLED)
 	
-func on_hazard_area_entered(area2d):
+func on_hazard_area_entered(_area2d):
 	$"/root/Helpers".apply_camera_shake(1)
 	call_deferred("kill")
 
