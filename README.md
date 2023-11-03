@@ -14,11 +14,21 @@
 
 
 ## 📢 Recent Update
-**⚙ (2023-11-02)**
-> **Level Complete**
->- 특정 조건에서 Level Complete가 두 번 실행되는 오류 수정
+**⚙ (2023-11-03)**
+> **Mouse Cursor**
+>- Level을 시작하면 Mouse Cursor가 사라지도록 변경
+>- 3초간 아무런 조작이 없다면, Mouse Cursor가 사라지도록 변경
+>- 사라진 Mouse Cursor는 마우스를 움직이면 다시 나타남
 
 ## 🧾 Update History
+
+<details>
+<summary><b>⚙ (2023-11-02) 🎓</b></summary>
+
+> # 🎓 Course Complete
+> **Level Complete**
+>- 특정 조건에서 Level Complete가 두 번 실행되는 오류 수정
+</details>
 
 <details>
 <summary><b>⚙ (2023-11-01) 🎓</b></summary>
